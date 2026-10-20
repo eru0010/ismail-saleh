@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Wiyantara Relations – Local Roots, Wider Reach</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4f5f7;--ink:#14213d;--mut:#55607a;--line:#d5d9e2;--navy:#0f1f3d;--emer:#0e5a4b;--wine:#6b1e3a;--gold:#c9a24d;--ivory:#f3efe6;--teal:#1d6f8a;--plum:#4a2c6b;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1220;--ink:#eceff5;--mut:#a3adc2;--line:#25304a}}
+:root[data-theme="dark"]{--bg:#0b1220;--ink:#eceff5;--mut:#a3adc2;--line:#25304a}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.7 Jost,system-ui,sans-serif}
+h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;line-height:1.05;margin:0;font-weight:600}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+.wrap{max-width:1060px;margin:0 auto;padding:0 24px}
+.hero{background:var(--navy);color:var(--ivory);position:relative;overflow:hidden}
+.o{position:absolute;border-radius:50%;border:1px solid var(--gold)}
+.o1{width:640px;height:640px;right:-150px;top:40px;opacity:.55}
+.o2{width:440px;height:440px;right:-50px;top:140px;opacity:.8}
+.o3{width:230px;height:230px;right:55px;top:245px;background:var(--emer);border-color:var(--gold)}
+.o4{width:64px;height:64px;right:380px;top:150px;background:var(--wine);border:0}
+nav{display:flex;justify-content:space-between;align-items:center;padding:24px 0;position:relative;flex-wrap:wrap;gap:12px;border-bottom:1px solid rgba(201,162,77,.45)}
+.logo{font:600 1.55rem "Cormorant Garamond",serif;text-decoration:none;color:var(--gold)}
+nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0;font-size:.95rem;flex-wrap:wrap}
+nav li a{text-decoration:none;opacity:.88}
+nav li a:hover{color:var(--gold);opacity:1}
+.hc{position:relative;padding:110px 0 140px;max-width:640px}
+.hc h1{font-size:clamp(3.4rem,10vw,6.6rem);font-weight:500;letter-spacing:-.01em}
+.hc h1 em{color:var(--gold)}
+.hc p{font-size:1.15rem;max-width:44ch;margin:24px 0 34px;opacity:.9}
+.btn{display:inline-block;padding:14px 30px;border-radius:2px;font-weight:500;text-decoration:none;border:1px solid var(--gold);letter-spacing:.02em}
+.btn.fill{background:var(--gold);color:var(--navy)}
+.btn.line{color:inherit}
+.btn:hover{filter:brightness(1.1)}
+section{padding:96px 0}
+h2{font-size:clamp(2.2rem,5vw,3.4rem);max-width:16ch}
+h2::after{content:"";display:block;width:56px;height:2px;background:var(--gold);margin-top:18px}
+.lead{max-width:58ch;margin:20px 0 0;color:var(--mut)}
+.two{display:grid;grid-template-columns:1fr 1.3fr;gap:56px}
+.two p{margin:0 0 18px}
+.owner{border-left:3px solid var(--gold);padding-left:16px;font-family:"Cormorant Garamond",serif;font-size:1.4rem;font-weight:600}
+.manfaat{background:var(--emer);color:var(--ivory)}
+.rows{margin-top:44px}
+.row{display:grid;grid-template-columns:1fr 1.7fr;gap:28px;padding:26px 0;border-top:1px solid rgba(201,162,77,.5);align-items:baseline}
+.row:last-child{border-bottom:1px solid rgba(201,162,77,.5)}
+.row h3{font-size:1.65rem;color:var(--gold)}
+.row p{margin:0;opacity:.92}
+.svc{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:44px}
+.svc div{padding:26px 22px 28px;border-top:4px solid var(--c);background:rgba(127,140,170,.09)}
+.svc h3{font-size:1.55rem;margin-bottom:8px}
+.svc p{margin:0;color:var(--mut);font-size:.98rem}
+.pend{background:var(--wine);color:var(--ivory)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;margin-top:44px;counter-reset:s}
+.steps div{counter-increment:s;border-top:1px solid var(--gold);padding-top:18px}
+.steps div::before{content:counter(s);font:500 3rem "Cormorant Garamond",serif;color:var(--gold);display:block;line-height:1;margin-bottom:10px}
+.steps h3{font-size:1.45rem;margin-bottom:8px}
+.steps p{margin:0;font-size:.97rem;opacity:.92}
+.cl{display:flex;flex-wrap:wrap;gap:14px;margin-top:38px}
+.cl span{font:600 1.5rem "Cormorant Garamond",serif;padding:12px 28px;border:1px solid var(--c);color:#fff;background:var(--c)}
+.contact{background:var(--navy);color:var(--ivory);text-align:center}
+.contact h2{margin:0 auto}
+.contact h2::after{margin:18px auto 0}
+.contact .lead{margin:20px auto 0;color:var(--ivory);opacity:.85}
+.cta{display:flex;gap:16px;flex-wrap:wrap;margin-top:36px;justify-content:center}
+footer{background:#070f1f;color:#aab3c7;padding:26px 0 36px;font-size:.9rem;text-align:center}
+@media(max-width:820px){.two,.row{grid-template-columns:1fr;gap:12px}.svc{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}.o1{right:-330px}.o2{right:-230px}.o3{right:-140px}.o4{right:150px}.hc{padding:70px 0 100px}section{padding:64px 0}}
+@media(max-width:520px){.svc,.steps{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="hero" id="beranda">
+<i class="o o1" aria-hidden="true"></i><i class="o o2" aria-hidden="true"></i><i class="o o3" aria-hidden="true"></i><i class="o o4" aria-hidden="true"></i>
+<div class="wrap">
+<nav aria-label="Navigasi utama"><a class="logo" href="#beranda">Wiyantara Relations</a>
+<ul><li><a href="#tentang">Tentang</a></li><li><a href="#manfaat">Manfaat</a></li><li><a href="#layanan">Layanan</a></li><li><a href="#pendekatan">Pendekatan</a></li><li><a href="#klien">Klien</a></li><li><a href="#kontak">Kontak</a></li></ul></nav>
+<div class="hc">
+<h1>Local Roots, <em>Wider Reach.</em></h1>
+<p>Wiyantara Relations adalah agensi public relations untuk bisnis hospitality dan pariwisata. Kami membantu cerita lokal Anda dikenal lebih luas.</p>
+<a class="btn fill" href="#kontak">Hubungi kami</a>
+</div></div>
+</header>
+<main>
+<section id="tentang"><div class="wrap two">
+<h2>Tentang agensi</h2>
+<div><p>Wiyantara Relations berfokus pada PR untuk industri hospitality dan pariwisata. Kami bekerja dengan hotel, destinasi, restoran, dan pelaku perjalanan yang ingin dikenal bukan hanya di kotanya, tetapi juga di mata wisatawan dan media yang lebih luas.</p>
+<p>Kami percaya reputasi yang kuat tumbuh dari akar yang jelas: budaya, tempat, dan orang di baliknya. Dari sanalah kami menyusun pesan dan membuka jalan ke audiens baru.</p>
+<p class="owner">Pemilik agensi: Ismail Saleh</p></div>
+</div></section>
+
+<section class="manfaat" id="manfaat"><div class="wrap">
+<h2>Manfaat bekerja dengan kami</h2>
+<div class="rows">
+<div class="row"><h3>Pemahaman lokal</h3><p>Kami memahami karakter daerah, kebiasaan wisatawan, dan cara media setempat bekerja.</p></div>
+<div class="row"><h3>Pembangunan reputasi</h3><p>Citra bisnis dibangun konsisten dan terukur, supaya kepercayaan tamu dan mitra terus bertambah.</p></div>
+<div class="row"><h3>Storytelling</h3><p>Kami mengubah keunikan tempat dan tim Anda menjadi cerita yang menarik untuk diceritakan ulang.</p></div>
+<div class="row"><h3>Perluasan relasi</h3><p>Akses ke jurnalis, kreator, komunitas, dan pelaku industri yang relevan dengan bisnis Anda.</p></div>
+<div class="row"><h3>Komunikasi strategis</h3><p>Setiap pesan punya tujuan, audiens, dan saluran yang jelas, bukan sekadar publikasi.</p></div>
+</div></div></section>
+
+<section id="layanan"><div class="wrap">
+<h2>Layanan</h2>
+<p class="lead">Enam layanan yang bisa dipilih satu per satu atau dipadukan sesuai kebutuhan.</p>
+<div class="svc">
+<div style="--c:var(--emer)"><h3>Media Relations</h3><p>Hubungan dengan media, siaran pers, dan penanganan undangan liputan.</p></div>
+<div style="--c:var(--gold)"><h3>Hospitality PR</h3><p>Komunikasi untuk hotel dan resort, dari pembukaan hingga program musiman.</p></div>
+<div style="--c:var(--wine)"><h3>Tourism PR</h3><p>Promosi destinasi dan atraksi wisata kepada pasar domestik dan internasional.</p></div>
+<div style="--c:var(--teal)"><h3>Brand Storytelling</h3><p>Narasi merek, konten, dan materi cerita yang menguatkan identitas bisnis.</p></div>
+<div style="--c:var(--plum)"><h3>Event PR</h3><p>Publikasi sebelum, saat, dan sesudah acara agar gaungnya terasa lebih lama.</p></div>
+<div style="--c:var(--navy)"><h3>Reputation Management</h3><p>Pemantauan citra, respons isu, dan langkah menjaga kepercayaan publik.</p></div>
+</div></div></section>
+
+<section class="pend" id="pendekatan"><div class="wrap">
+<h2>Pendekatan kerja</h2>
+<div class="steps">
+<div><h3>Memahami kebutuhan</h3><p>Kami mendengar tujuan, karakter bisnis, dan tantangan yang sedang dihadapi klien.</p></div>
+<div><h3>Menyusun strategi</h3><p>Menentukan audiens, pesan utama, saluran, dan rencana kerja yang realistis.</p></div>
+<div><h3>Menjalankan program</h3><p>Pelaksanaan komunikasi dan hubungan media sesuai jadwal yang disepakati.</p></div>
+<div><h3>Evaluasi</h3><p>Hasil dikaji bersama, lalu dijadikan dasar untuk perbaikan langkah berikutnya.</p></div>
+</div></div></section>
+
+<section id="klien"><div class="wrap">
+<h2>Target klien</h2>
+<p class="lead">Kami paling cocok bekerja dengan bisnis yang menjual pengalaman perjalanan dan keramahtamahan.</p>
+<div class="cl"><span style="--c:var(--emer)">Hotel</span><span style="--c:var(--wine)">Resort</span><span style="--c:var(--teal)">Destinasi wisata</span><span style="--c:var(--plum)">Restoran</span><span style="--c:var(--navy)">Bisnis perjalanan</span></div>
+</div></section>
+
+<section class="contact" id="kontak"><div class="wrap">
+<h2>Mari bicara</h2>
+<p class="lead">Ceritakan bisnis dan tujuan Anda. Kami akan membalas dengan langkah awal yang bisa dimulai.</p>
+<div class="cta">
+<a class="btn fill" href="mailto:wiyatararelations@gmail.com?subject=Konsultasi%20PR">Kirim email</a>
+<a class="btn line" href="https://wa.me/6285758540274?text=Halo%20Wiyantara%20Relations%2C%20saya%20ingin%20berkonsultasi." target="_blank" rel="noopener">Chat WhatsApp</a>
+</div></div></section>
+</main>
+<footer><div class="wrap">&copy; Wiyantara Relations. Pemilik: Ismail Saleh. Local Roots, Wider Reach.</div></footer>
+</body>
+</html>
